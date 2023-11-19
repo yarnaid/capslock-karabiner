@@ -1264,7 +1264,7 @@ rules:
       - description: 'option + e = outlook'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a oustlook } ]
+        to: [ { shell_command: open -a microsoft\ outlook } ]
 
       - description: 'e = Arc'
         type: basic
@@ -1296,7 +1296,7 @@ rules:
       - description: 'command + t = msteams'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a teams } ]
+        to: [ { shell_command: open -a microsoft\ teams } ]
 
       - description: 'option + t = obsidian'
         type: basic
@@ -1347,10 +1347,10 @@ rules:
       #==========================================================#
       # ( g ) --> idea / chrome / calender                       #
       #==========================================================#
-      - description: 'command + g = Chrome'
-        type: basic
-        from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Google Chrome' } ]
+      # - description: 'command + g = Chrome'
+      #   type: basic
+      #   from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a 'Google Chrome' } ]
 
       - description: 'option + g = Calender'
         type: basic

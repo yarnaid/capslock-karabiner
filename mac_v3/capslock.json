@@ -4814,7 +4814,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a oustlook"
+              "shell_command": "open -a microsoft\\ outlook"
             }
           ]
         },
@@ -4917,7 +4917,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a teams"
+              "shell_command": "open -a microsoft\\ teams"
             }
           ]
         },
@@ -5083,27 +5083,6 @@
           "to": [
             {
               "shell_command": "open -a 'Raycast'"
-            }
-          ]
-        },
-        {
-          "description": "command + g = Chrome",
-          "type": "basic",
-          "from": {
-            "key_code": "g",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Google Chrome'"
             }
           ]
         },
