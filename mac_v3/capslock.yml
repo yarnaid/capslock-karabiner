@@ -1275,10 +1275,10 @@ rules:
       #==========================================================#
       # ( r ) --> iterm / preview / terminal                     #
       #==========================================================#
-      - description: 'command + r = preview'
+      - description: 'command + r = telegram'
         type: basic
         from: { key_code: r, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Preview } ]
+        to: [ { shell_command: open -a telegram} ]
 
       - description: 'option + r = terminal'
         type: basic
@@ -1293,10 +1293,10 @@ rules:
       #==========================================================#
       # ( t ) --> vscode / typora / notes                        #
       #==========================================================#
-      # - description: 'command + t = typora'
-      #   type: basic
-      #   from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-      #   to: [ { shell_command: open -a Typora } ]
+      - description: 'command + t = msteams'
+        type: basic
+        from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+        to: [ { shell_command: open -a teams } ]
 
       - description: 'option + t = obsidian'
         type: basic
@@ -1339,10 +1339,10 @@ rules:
         from: { key_code: f, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a DeepL} ]
 
-      - description: 'f = Alfred 4'
+      - description: 'f = Raycast'
         type: basic
         from: { key_code: f, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Alfred 4' } ]
+        to: [ { shell_command: open -a 'Raycast' } ]
 
       #==========================================================#
       # ( g ) --> idea / chrome / calender                       #
@@ -1357,10 +1357,10 @@ rules:
         from: { key_code: g, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Calendar } ]
 
-      - description: 'g = Intellij IDEA'
-        type: basic
-        from: { key_code: g, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'IntelliJ IDEA' } ]
+      # - description: 'g = Intellij IDEA'
+      #   type: basic
+      #   from: { key_code: g, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a 'IntelliJ IDEA' } ]
 
 
 

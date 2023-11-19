@@ -4839,7 +4839,7 @@
           ]
         },
         {
-          "description": "command + r = preview",
+          "description": "command + r = telegram",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4855,7 +4855,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Preview"
+              "shell_command": "open -a telegram"
             }
           ]
         },
@@ -4897,6 +4897,27 @@
           "to": [
             {
               "shell_command": "open -a warp"
+            }
+          ]
+        },
+        {
+          "description": "command + t = msteams",
+          "type": "basic",
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a teams"
             }
           ]
         },
@@ -5025,7 +5046,7 @@
           ]
         },
         {
-          "description": "option + f = Dictionary",
+          "description": "option + f = DeepL",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5041,12 +5062,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a Dictionary"
+              "shell_command": "open -a DeepL"
             }
           ]
         },
         {
-          "description": "f = Alfred 4",
+          "description": "f = Raycast",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -5061,7 +5082,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Alfred 4'"
+              "shell_command": "open -a 'Raycast'"
             }
           ]
         },
@@ -5104,26 +5125,6 @@
           "to": [
             {
               "shell_command": "open -a Calendar"
-            }
-          ]
-        },
-        {
-          "description": "g = Intellij IDEA",
-          "type": "basic",
-          "from": {
-            "key_code": "g",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'IntelliJ IDEA'"
             }
           ]
         }
