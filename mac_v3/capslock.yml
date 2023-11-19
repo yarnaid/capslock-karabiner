@@ -1256,20 +1256,20 @@ rules:
       #==========================================================#
       # ( e ) --> safari / finder / mail                         #
       #==========================================================#
-      - description: 'command + e = finder'
+      - description: 'command + e = forklift'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a finder } ]
+        to: [ { shell_command: open -a forklift} ]
 
-      - description: 'option + e = mail'
+      - description: 'option + e = outlook'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a mail } ]
+        to: [ { shell_command: open -a oustlook } ]
 
-      - description: 'e = safari'
+      - description: 'e = Arc'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Safari } ]
+        to: [ { shell_command: open -a arc } ]
 
 
       #==========================================================#
@@ -1285,23 +1285,23 @@ rules:
         from: { key_code: r, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a terminal } ]
 
-      - description: 'r = iTerm2'
+      - description: 'r = warp'
         type: basic
         from: { key_code: r, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a iTerm } ]
+        to: [ { shell_command: open -a warp} ]
 
       #==========================================================#
       # ( t ) --> vscode / typora / notes                        #
       #==========================================================#
-      - description: 'command + t = typora'
-        type: basic
-        from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Typora } ]
+      # - description: 'command + t = typora'
+      #   type: basic
+      #   from: { key_code: t, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a Typora } ]
 
-      - description: 'option + t = notes'
+      - description: 'option + t = obsidian'
         type: basic
         from: { key_code: t, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a notes } ]
+        to: [ { shell_command: open -a obsidian} ]
 
       - description: 't = vscode'
         type: basic
@@ -1334,10 +1334,10 @@ rules:
         from: { key_code: f, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
         to: [ { shell_command: open -a Dash } ]
 
-      - description: 'option + f = Dictionary'
+      - description: 'option + f = DeepL'
         type: basic
         from: { key_code: f, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Dictionary } ]
+        to: [ { shell_command: open -a DeepL} ]
 
       - description: 'f = Alfred 4'
         type: basic

@@ -4777,7 +4777,7 @@
       "description": "Hyper Application",
       "manipulators": [
         {
-          "description": "command + e = finder",
+          "description": "command + e = forklift",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4793,12 +4793,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a finder"
+              "shell_command": "open -a forklift"
             }
           ]
         },
         {
-          "description": "option + e = mail",
+          "description": "option + e = outlook",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4814,12 +4814,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a mail"
+              "shell_command": "open -a oustlook"
             }
           ]
         },
         {
-          "description": "e = safari",
+          "description": "e = Arc",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4834,7 +4834,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari"
+              "shell_command": "open -a arc"
             }
           ]
         },
@@ -4881,7 +4881,7 @@
           ]
         },
         {
-          "description": "r = iTerm2",
+          "description": "r = warp",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4896,33 +4896,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a iTerm"
+              "shell_command": "open -a warp"
             }
           ]
         },
         {
-          "description": "command + t = typora",
-          "type": "basic",
-          "from": {
-            "key_code": "t",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a Typora"
-            }
-          ]
-        },
-        {
-          "description": "option + t = notes",
+          "description": "option + t = obsidian",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4938,7 +4917,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a notes"
+              "shell_command": "open -a obsidian"
             }
           ]
         },
